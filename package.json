@@ -1,0 +1,21 @@
+{
+  "name": "api-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "John Fawole",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "fastify-swagger": "^5.2.0",
+    "uuid": "^9.0.1"
+  }
+}
